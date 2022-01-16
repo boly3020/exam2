@@ -158,7 +158,7 @@ $("#login-button").click(function(event) {
 
     if (log === checkEmail && pass === checkUpassword && count < 1) {
         // window.open("http://127.0.0.1:5500/index.html", "_self").close();
-        window.open('http://127.0.0.1:5500/exam.html', '_blank');
+        window.open('exam.html', '_blank');
         window.setTimeout(function() { this.close(); }, 1000)
         c++;
         localStorage.setItem("count", c);
